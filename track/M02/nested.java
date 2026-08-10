@@ -18,5 +18,13 @@ public class nested {
             l++;
         }
         k++;
+        int m = 1;
+        do (m <= 5) {
+            int n = 1;
+            do (n <= 5) {
+                System.out.println(l);
+            }while(n<=5);
+            System.out.println("");
+        }while(n<=5);
     }
 }
